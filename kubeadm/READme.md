@@ -22,7 +22,7 @@ sudo -i
 
 ``` sh
 #!/bin/bash
-# common.sh
+# k8s.sh
 # copy this script and run in all master and worker nodes
 #i1) Switch to root user [ sudo -i]
 
