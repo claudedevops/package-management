@@ -26,7 +26,8 @@ sudo -i
 # copy this script and run in all master and worker nodes
 #i1) Switch to root user [ sudo -i]
 
-sudo hostnamectl set-hostname  node1 (comment this line when setting up the masterNode/controlPlane)
+# comment the below command when setting up the masterNode/controlPlane)
+sudo hostnamectl set-hostname  node1
 
 #2) Disable swap & add kernel settings
 
